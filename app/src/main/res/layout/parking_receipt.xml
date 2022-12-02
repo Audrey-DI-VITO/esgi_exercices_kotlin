@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Parking Receipt"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/jakarta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="520dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="20dp"
+    >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/illu_parking"
+            app:cardCornerRadius="20dp"
+        />
+        
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="30dp"
+            android:text="Sudirman District Space"
+            android:textColor="@color/background"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="25dp"
+            app:fontFamily="@font/jakarta"
+        />
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="30dp"
+            android:text="This is the address"
+            android:textColor="@color/light_grey"
+            android:textSize="15dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="55dp"
+            app:fontFamily="@font/jakarta"
+        />
+
+        <View
+            android:layout_width="280dp"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_marginTop="110dp"
+            android:layout_marginStart="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+        />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="Arrive"
+            android:textColor="@color/light_grey"
+            android:textSize="12dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="115dp"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+        />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="140dp"
+            android:text="11.00"
+            android:textColor="@color/background"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+        />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="Oct. 22"
+            android:textColor="@color/light_grey"
+            android:textSize="12dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="180dp"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+        />
+
+        <include
+            android:id="@+id/id"
+            layout="@layout/progress_divider"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="Exit"
+            android:textColor="@color/light_grey"
+            android:textSize="12dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="115dp"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="140dp"
+            android:text="13.30"
+            android:textColor="@color/background"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="Oct. 22"
+            android:textColor="@color/light_grey"
+            android:textSize="12dp"
+            android:layout_marginStart="282dp"
+            android:layout_marginTop="180dp"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <View
+            android:layout_width="280dp"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_marginTop="220dp"
+            android:layout_marginStart="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="Name"
+            android:textColor="@color/light_grey"
+            android:textSize="12dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="230dp"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="250dp"
+            android:text="Kai Havertz"
+            android:textColor="@color/background"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="Vehicule"
+            android:textColor="@color/light_grey"
+            android:textSize="12dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="230dp"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="250dp"
+            android:text="BMW 320i Sport"
+            android:textColor="@color/background"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Parking Pass"
+            android:textColor="@color/light_grey"
+            android:textSize="12dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="290dp"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="310dp"
+            android:text="#23-56-76"
+            android:textColor="@color/background"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Parking Spot"
+            android:textColor="@color/light_grey"
+            android:textSize="12dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="290dp"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="310dp"
+            android:text="#A-13 (F1)"
+            android:textColor="@color/background"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Duration"
+            android:textColor="@color/light_grey"
+            android:textSize="12dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="350dp"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="370dp"
+            android:text="2.5 hours"
+            android:textColor="@color/background"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Payment Method"
+            android:textColor="@color/light_grey"
+            android:textSize="12dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="350dp"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="370dp"
+            android:text="Credit Card"
+            android:textColor="@color/background"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/jakarta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <View
+            android:layout_width="280dp"
+            android:layout_height="14dp"
+            android:background="@drawable/bg_dashed_line"
+            android:layerType="software"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="400dp"
+        />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_barcode"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="420dp"
+        />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="650dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/light_blue"
+        android:text="Download Receipt"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        app:fontFamily="@font/jakarta"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
